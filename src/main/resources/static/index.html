@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HAMA Group of Companies | ICT, Printing, Stationery &amp; Branding</title>
+<meta name="description" content="HAMA Group supplies ICT hardware and software, printing, stationery and brand design to banks, ministries and institutions across Tanzania.">
+<meta name="theme-color" content="#1A73E8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<video id="bgVideo" autoplay muted loop playsinline preload="auto" aria-hidden="true"><source src="/media/hero.mp4" type="video/mp4"></video>
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="veil"></div>
+
+<nav class="navbar fixed-top">
+  <div class="container-fluid px-4 px-lg-5">
+    <a class="navbar-brand brand" href="#home"><span class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i></span>HAMA</a>
+    <ul class="navbar-nav flex-row gap-4 d-none d-lg-flex">
+      <li><a class="nav-link" href="#ict">ICT</a></li>
+      <li><a class="nav-link" href="#printing">Printing</a></li>
+      <li><a class="nav-link" href="#stationery">Stationery</a></li>
+      <li><a class="nav-link" href="#design">Design</a></li>
+      <li><a class="nav-link" href="#about">About</a></li>
+      <li><a class="nav-link" href="#clients">Clients</a></li>
+      <li><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-btn d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="menu" aria-label="Open menu">Menu</button>
+  </div>
+</nav>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="menu" aria-label="Menu">
+  <div class="offcanvas-header"><button class="menu-btn ms-auto" data-bs-dismiss="offcanvas">Close</button></div>
+  <div class="offcanvas-body d-flex flex-column gap-3">
+    <a class="mlink" href="#ict">ICT</a><a class="mlink" href="#printing">Printing</a>
+    <a class="mlink" href="#stationery">Stationery</a><a class="mlink" href="#design">Design</a>
+    <a class="mlink" href="#about">About</a><a class="mlink" href="#clients">Clients</a>
+    <a class="mlink" href="#contact">Contact</a>
+  </div>
+</div>
+
+
+<main>
+<section id="home" class="panel-s hero" data-title="Home">
+  <img class="sec-bg" src="/media/hero.jpg" alt="" onerror="this.remove()">
+  <div class="container-fluid px-4 px-lg-5">
+    <h1>Meet your technological<br>innovation demands</h1>
+    <p class="lead-s">Hardware, software, printing, stationery and design for East African businesses, banks and government.</p>
+    <div class="d-flex gap-3 flex-wrap"><a href="#contact" class="btn-o solid">Request a quote</a><a href="#ict" class="btn-o">Our services</a></div>
+  </div>
+  <a href="#ict" class="scroll-cue" aria-label="Scroll to services">Scroll</a>
+</section>
+
+<section id="ict" class="panel-s" style="--glow:#1a73e8" data-title="ICT">
+  <img class="sec-bg" src="/media/ict.jpg" alt="" loading="lazy" onerror="this.remove()">
+  <div class="container-fluid px-4 px-lg-5">
+    <p class="kicker" style="color: black">Hardware and software</p>
+    <h2>ICT solutions that work</h2>
+    <p class="lead-s">Computers, servers and software for offices of every size, from leading global brands and set up to work.</p>
+    <div class="row g-0 cells">
+      <div class="col-md-6 col-xl-3"><h3>Computers and laptops</h3><p>Desktops, laptops and accessories for staff and labs.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>Servers and networking</h3><p>Equipment to connect and run your office.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>Operating systems and security</h3><p>Licensed software and protection tools.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>Custom software</h3><p>Systems built around how your business works.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="printing" class="panel-s" style="--glow:#e0307a" data-title="Printing">
+  <img class="sec-bg" src="/media/printing.jpg" alt="" loading="lazy" onerror="this.remove()">
+  <div class="container-fluid px-4 px-lg-5">
+    <p class="kicker">Printing services</p>
+    <h2>Print at any scale</h2>
+    <p class="lead-s">From a short run of cards to thousands of brochures, printed quickly and to a consistent standard.</p>
+    <div class="row g-0 cells">
+      <div class="col-md-6 col-xl-3"><h3>Offset printing</h3><p>High-volume brochures, flyers, catalogs and business cards.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>Digital printing</h3><p>Fast short runs, personalised items and variable data.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>Large format</h3><p>Banners, posters, signs and exhibition displays.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>Custom printing</h3><p>Packaging, labels and promotional items.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="stationery" class="panel-s" style="--glow:#f4bf1b" data-title="Stationery">
+  <img class="sec-bg" src="/media/stationery.jpg" alt="" loading="lazy" onerror="this.remove()">
+  <div class="container-fluid px-4 px-lg-5">
+    <p class="kicker">Stationery</p>
+    <h2>Supplies delivered nationwide</h2>
+    <p class="lead-s">Office and school supplies, with special pricing when you order in bulk.</p>
+    <div class="row g-0 cells">
+      <div class="col-md-6 col-xl-3"><h3>Office supplies</h3><p>Pens, markers, paper, notebooks, planners and filing.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>School essentials</h3><p>Textbooks, bags, calculators and everyday items.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>Bulk ordering</h3><p>Discounts for large and repeat orders.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>Custom and delivery</h3><p>Personalised stationery with reliable nationwide delivery.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="design" class="panel-s" style="--glow:#17a9c4" data-title="Design">
+  <img class="sec-bg" src="/media/design.jpg" alt="" loading="lazy" onerror="this.remove()">
+  <div class="container-fluid px-4 px-lg-5">
+    <p class="kicker">Graphic design</p>
+    <h2>Brands people remember</h2>
+    <p class="lead-s">Clear, creative design for businesses, organisations and individuals who want to stand out.</p>
+    <div class="row g-0 cells">
+      <div class="col-md-6 col-xl-3"><h3>Brand identity</h3><p>Logos, brand guidelines and visual identities.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>Print materials</h3><p>Brochures, flyers, cards and posters.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>Digital design</h3><p>Web designs, social graphics, email templates and ads.</p></div>
+      <div class="col-md-6 col-xl-3"><h3>Packaging and motion</h3><p>Packaging, illustration, animation and explainer videos.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="panel-s" style="--glow:#1a73e8" data-title="About">
+  <video class="sec-bg" src="/media/about.mp4" autoplay muted loop playsinline preload="metadata" aria-hidden="true" onerror="this.remove()"></video>
+  <div class="container-fluid px-4 px-lg-5">
+    <p class="kicker">About HAMA</p>
+    <h2>Driving Tanzania’s digital transformation</h2>
+    <div class="row g-4 mt-1">
+      <div class="col-lg-5"><h3 class="sub">Vision</h3><p class="lead-s mb-4">To be the leading provider of innovative ICT solutions in Tanzania, driving digital transformation and empowering businesses and communities across the nation.</p>
+        <h3 class="sub">Mission</h3><p class="lead-s">To provide innovative hardware and software solutions and exceptional service, so our customers succeed and Tanzania’s social and economic growth is supported.</p></div>
+      <div class="col-lg-7"><div class="row g-0 cells values">
+        <div class="col-sm-6 col-xl-4"><h3>Innovation</h3><p>The latest technology, built around what clients need now.</p></div>
+        <div class="col-sm-6 col-xl-4"><h3>Quality</h3><p>The same high standard in every product and service.</p></div>
+        <div class="col-sm-6 col-xl-4"><h3>Integrity</h3><p>Honest, transparent dealings that earn trust.</p></div>
+        <div class="col-sm-6 col-xl-4"><h3>Customer focus</h3><p>Personal solutions for what each customer requires.</p></div>
+        <div class="col-sm-6 col-xl-4"><h3>Collaboration</h3><p>Working closely with clients and our team.</p></div>
+        <div class="col-sm-6 col-xl-4"><h3>Community impact</h3><p>Support for education, empowerment and development.</p></div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section id="clients" class="panel-s" style="--glow:#e0307a" data-title="Clients">
+  <img class="sec-bg" src="/media/clients.jpg" alt="" loading="lazy" onerror="this.remove()">
+  <div class="container-fluid px-4 px-lg-5">
+    <p class="kicker">Our clients</p>
+    <h2>Trusted by national institutions</h2>
+    <div class="belt" aria-label="Our clients">
+      <div class="belt-track" id="beltTrack">
+        <div class="belt-item"><img class="logo" src="/media/clients/nmb.png" alt="" loading="lazy" onerror="this.remove()"><h3>National Microfinance Bank</h3><p>NMB Plc</p></div>
+        <div class="belt-item"><img class="logo" src="/media/clients/tpa.png" alt="" loading="lazy" onerror="this.remove()"><h3>Tanzania Ports Authority</h3><p>TPA</p></div>
+        <div class="belt-item"><img class="logo" src="/media/clients/dit.png" alt="" loading="lazy" onerror="this.remove()"><h3>Dar es Salaam Institute of Technology</h3><p>DIT</p></div>
+        <div class="belt-item"><img class="logo" src="/media/clients/nit.png" alt="" loading="lazy" onerror="this.remove()"><h3>National Institute of Transport</h3><p>NIT</p></div>
+        <div class="belt-item"><img class="logo" src="/media/clients/ministry-statistics.png" alt="" loading="lazy" onerror="this.remove()"><h3>National Bureau of Statistics</h3><p>NBS</p></div>
+        <div class="belt-item"><img class="logo" src="/media/clients/ministry-tourism.png" alt="" loading="lazy" onerror="this.remove()"><h3>Ministry of Natural Resources and Tourism</h3><p>Government of Tanzania</p></div>
+        <div class="belt-item"><img class="logo" src="/media/clients/ministry-agriculture.png" alt="" loading="lazy" onerror="this.remove()"><h3>Ministry of Agriculture and Irrigation</h3><p>Government of Tanzania</p></div>
+        <div class="belt-item"><img class="logo" src="/media/clients/ministry.png" alt="" loading="lazy" onerror="this.remove()"><h3>Ministry of Works and Transport</h3><p>Government of Tanzania</p></div>
+      </div>
+    </div>
+    <p class="brand-label">Brands we work with</p>
+    <div class="belt belt-brands" aria-label="Brands we work with">
+      <div class="belt-track rev">
+        <div class="brand-item"><img src="/media/brands/dell.png" alt="Dell" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:this.alt}))"></div>
+        <div class="brand-item"><img src="/media/brands/hp.png" alt="HP" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:this.alt}))"></div>
+        <div class="brand-item"><img src="/media/brands/lenovo.png" alt="Lenovo" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:this.alt}))"></div>
+        <div class="brand-item"><img src="/media/brands/apple.png" alt="Apple" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:this.alt}))"></div>
+        <div class="brand-item"><img src="/media/brands/samsung.png" alt="Samsung" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:this.alt}))"></div>
+        <div class="brand-item"><img src="/media/brands/lg.png" alt="LG" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:this.alt}))"></div>
+        <div class="brand-item"><img src="/media/brands/acer.png" alt="Acer" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:this.alt}))"></div>
+        <div class="brand-item"><img src="/media/brands/xerox.png" alt="Xerox" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:this.alt}))"></div>
+        <div class="brand-item"><img src="/media/brands/kyocera.png" alt="Kyocera" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:this.alt}))"></div>
+        <div class="brand-item"><img src="/media/brands/sanyo.png" alt="Sanyo" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:this.alt}))"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="panel-s contact" style="--glow:#1a73e8" data-title="Contact">
+  <img class="sec-bg" src="/media/contacts.jpg" alt="" loading="lazy" onerror="this.remove()">
+  <div class="container-fluid px-4 px-lg-5">
+    <div class="row g-5">
+      <div class="col-lg-5">
+        <p class="kicker">Contact</p>
+        <h2>Start your order</h2>
+        <dl class="info">
+          <dt>Phone</dt><dd><a href="tel:+255715281111">+255 715 281 111</a><br><a href="tel:+255767567324">+255 767 567 324</a></dd>
+          <dt>Email</dt><dd><a href="mailto:info@hamageneralsupplies.co.tz">info@hamageneralsupplies.co.tz</a><br><a href="mailto:hama.general50@yahoo.com">hama.general50@yahoo.com</a></dd>
+          <dt>Visit</dt><dd>Mwanga Tower, New Bagamoyo Road, Makumbusho, Dar es Salaam</dd>
+          <dt>Follow</dt><dd><a href="https://www.linkedin.com/in/hama-group-of-companies-ltd-94040b343">LinkedIn</a> &nbsp; <a href="https://x.com/hama_ltd80398">X</a></dd>
+        </dl>
+      </div>
+      <div class="col-lg-7">
+        <form id="quote" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6"><label class="form-label" for="nm">Name or organisation</label><input id="nm" class="form-control" autocomplete="organization"></div>
+            <div class="col-md-6"><label class="form-label" for="sv">What do you need?</label>
+              <select id="sv" class="form-select"><option>ICT hardware and software</option><option>Printing</option><option>Stationery</option><option>Graphic design</option><option>Something else</option></select></div>
+            <div class="col-12"><label class="form-label" for="dt">Quantities, sizes or deadline</label><textarea id="dt" rows="4" class="form-control"></textarea></div>
+            <div class="col-12 d-flex gap-3 flex-wrap"><button class="btn-o solid" type="submit">Send on WhatsApp</button><button class="btn-o" type="button" id="viaMail">Send by email</button></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>© 2026 HAMA Group of Companies Ltd. Website by <a href="mailto:michaelotorael4@gmail.com">Michael O.</a></footer>
+  </div>
+</section>
+</main>
+<div class="toast-s" id="toast" role="status"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/site.js"></script>
+</body>
+</html>
